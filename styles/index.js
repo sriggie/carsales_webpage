@@ -12,7 +12,7 @@ export default function Landing() {
     <>
       <main>
         <Head>
-          <title>Blue Auto</title>
+          <title>MOTOR MARK </title>
           <meta name="description" content="It's all about you" />
           <link rel="icon" href="/favicon.png" />
         </Head>
@@ -37,7 +37,7 @@ export default function Landing() {
             }}
           >
             <Image
-              src="/favicon_white.png"
+              src="/motor_mark_logo.png"
               width={70}
               height={70}
               style={{
@@ -45,13 +45,13 @@ export default function Landing() {
                 position: "relative",
               }}
             />
-            {/* <InfoParagraph>
-              Blue Auto is the only dealership where the seller AND the buyer get the best prices.
-            </InfoParagraph> */}
-            {/* <InfoParagraph>Here at <b>Blue Auto</b> we look after both buyer and seller - so that the benefit goes to the people that deserve it, instead of dealerships.</InfoParagraph> */}
+            { <InfoParagraph>
+              Motor Mark  is the only dealership where the seller AND the buyer get the best prices.
+            </InfoParagraph> }
+            { <InfoParagraph>Here at <b>Motor Mark </b> we look after both buyer and seller - so that the benefit goes to the people that deserve it, instead of dealerships.</InfoParagraph> */}
             <Heading>
               <p>
-                At <b>Blue Auto</b> the seller gets more, and the buyer pays
+                At <b>Motor Mark </b> the seller gets more, and the buyer pays
                 less.
               </p>
               <p>With us - it&apos;s all about you!</p>
@@ -96,7 +96,7 @@ export default function Landing() {
               <p className="p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-500">
                 <i className="text-white fas fa-retweet"></i>
               </p>
-              <h4>Selling</h4>
+              <h4>Tradin ins </h4>
               <p>
                 Benefit the most from your vehicle. <br />
                 We&apos;ll sell it for you.
@@ -128,7 +128,7 @@ export default function Landing() {
                 <i className="fas fa-user-friends text-xl"></i>
               </div>
               <InfoHeading>
-                At <b>Blue Auto, </b>we like keeping it simple
+                At <b>Motor Mark, </b>we like keeping it simple
               </InfoHeading>
               <InfoParagraph className="text-lg leading-relaxed mt-4 mb-4">
                 Once you find the vehicle you love, we&apos;ll arrange the rest.
@@ -168,7 +168,7 @@ export default function Landing() {
                   <AdviceParagraph>
                     From information on car brands and models, to knowledge on
                     financing and affordability -&nbsp;
-                    <b>Blue Auto</b> is here to help you!{" "}
+                    <b>Motor Mark</b> is here to help you!{" "}
                     <Link href="/contact">Contact us today.</Link>
                   </AdviceParagraph>
                 </blockquote>
@@ -214,7 +214,7 @@ export default function Landing() {
                   </div>
                   <h3 className="text-3xl font-semibold">Personal service</h3>
                   <p className="mt-4 text-lg leading-relaxed ">
-                    At Blue Auto we provide personal service every step of the
+                    At <b>Motor Mark </b> we provide personal service every step of the
                     way:
                   </p>
                   <ul className="list-none mt-6">
@@ -286,7 +286,7 @@ export default function Landing() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 mt-10">
                 <FinancingHeading>
-                  Blue Auto Financing partners
+                  Motor Mark  Financing partners
                 </FinancingHeading>
                 <p className="text-xl mb-10 text-blueGray-500">
                   Through our financing options with these major banks,

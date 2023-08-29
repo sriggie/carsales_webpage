@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 export const LoadingPage = () => {
-  return <Page style={{ color: "darkblue" }}></Page>;
+  return <Page style={{ color: "red" }}></Page>;
 };
 
 const Page = styled.div`

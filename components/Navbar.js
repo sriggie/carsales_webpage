@@ -10,23 +10,23 @@ const Navbar = () => {
     <NavbarContainer>
       <Link style={{ padding: "10px", marginLeft: "20px" }} href="/">
         <Image
-          src="/blueauto_logo.png"
-          alt="blue auto logo"
+          src="/motor_mark_logo.png"
+          alt="Motor Mark Logo"
           width={190}
-          height={32}
+          height={30}
         />
       </Link>
       <MenuDropdown onClick={() => setNavbarOpen(!navbarOpen)}>
-        <i className="text-darkBlue-900 fas fa-bars"></i>
+        <i className="text-darkred-900 fas fa-bars"></i>
       </MenuDropdown>
       <Menu $navbarOpen={navbarOpen}>
         <NavList>
           <li>
-            <Link href="/cars">Buy Car</Link>
+            <Link href="/cars">Showroom </Link>
           </li>
 
           <li>
-            <Link href="/upload">Sell Car</Link>
+            <Link href="/upload">Trade ins </Link>
           </li>
 
           <li>
